@@ -1,0 +1,4 @@
+steps for running website:
+STEP1:-Type "npm run dev" in terminal of VSCode
+STEP2:-your server will run at 3000 port,hence type localhost:3000/Startpage in google chrome 
+STEP3:-Explore through our website😊
