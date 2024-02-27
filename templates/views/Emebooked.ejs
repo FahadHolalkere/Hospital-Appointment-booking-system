@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<%q=0%>
+<%list.forEach(speciality=>{%>
+<%if(q==0){%>
+    <%q++%>
+<head>
+
+</head>
+<body>
+    successfully booked Emergency Appointment at <strong><%= speciality.Hospital %></strong>!!!!!
+    <p><a class="btn btn-primary btn-lg" href="/index" role="button">Home</a></p>      
+    <br/>
+    <p><a class="btn btn-primary btn-lg" href="/startpage" role="button">Starting Page</a></p>             
+</body>
+<%}%>
+<%})%>
+</html>
